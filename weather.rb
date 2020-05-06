@@ -7,6 +7,8 @@ data = JSON.parse(response)
 
 current = data["observations"]["data"][0]
 
-puts "The weather at #{current["name"]}:"
+p current["local_data_time_full"]
+
+puts "The weather at #{current["name"]} on #{date} at #{time}:"
 puts "Temperature of #{current["air_temp"].to_i} degrees celcius"
 puts "Pressure of #{current["press"]} hpa"
