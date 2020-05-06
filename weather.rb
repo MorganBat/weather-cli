@@ -7,7 +7,11 @@ data = JSON.parse(response)
 
 current = data["observations"]["data"][0]
 
-p current["local_data_time_full"]
+arr = current["local_date_time_full"].split("")
+
+date = [arr[6], arr[7], "/", arr[4], arr[5]].join("")
+
+time = [arr[8], arr[9], arr[10], arr[11]].join("")
 
 puts "The weather at #{current["name"]} on #{date} at #{time}:"
 puts "Temperature of #{current["air_temp"].to_i} degrees celcius"
