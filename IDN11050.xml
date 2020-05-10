@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>New South Wales</region>
+            <office>NSWRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDN11050</identifier>
+        <issue-time-utc>2020-05-09T23:07:19Z</issue-time-utc>
+        <issue-time-local tz="EST">2020-05-10T09:07:19+10:00</issue-time-local>
+        <sent-time>2020-05-09T23:07:19Z</sent-time>
+        <expiry-time>2020-05-10T23:07:19Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2020-05-10T00:00:00+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2020-05-16T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2020-05-10T06:25:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2020-05-10T16:25:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <sub-service>FCT</sub-service>
+        <product-type>F</product-type>
+        <phase>UPD</phase>
+    </amoc>
+    <forecast>
+        <area aac="NSW_FA001" description="New South Wales" type="region"/>
+        <area aac="NSW_ME003" description="Wollongong" type="metropolitan" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2020-05-10T00:00:00+10:00" end-time-local="2020-05-11T00:00:00+10:00" start-time-utc="2020-05-09T14:00:00Z" end-time-utc="2020-05-10T14:00:00Z">
+                <text type="forecast">Sunny. Winds westerly 25 to 35 km/h tending southwesterly 15 to 25 km/h in the middle of the day then becoming westerly and light in the evening.</text>
+                <text type="uv_alert">Sun protection 10:40am to 12:50pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2020-05-11T00:00:00+10:00" end-time-local="2020-05-12T00:00:00+10:00" start-time-utc="2020-05-10T14:00:00Z" end-time-utc="2020-05-11T14:00:00Z">
+                <text type="forecast">Sunny. Light winds becoming southerly 15 to 20 km/h in the middle of the day then becoming light in the early afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2020-05-12T00:00:00+10:00" end-time-local="2020-05-13T00:00:00+10:00" start-time-utc="2020-05-11T14:00:00Z" end-time-utc="2020-05-12T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2020-05-13T00:00:00+10:00" end-time-local="2020-05-14T00:00:00+10:00" start-time-utc="2020-05-12T14:00:00Z" end-time-utc="2020-05-13T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower in the evening. Light winds becoming southerly 15 to 20 km/h during the afternoon then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2020-05-14T00:00:00+10:00" end-time-local="2020-05-15T00:00:00+10:00" start-time-utc="2020-05-13T14:00:00Z" end-time-utc="2020-05-14T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower during the morning. Winds southwesterly 15 to 20 km/h turning southerly during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2020-05-15T00:00:00+10:00" end-time-local="2020-05-16T00:00:00+10:00" start-time-utc="2020-05-14T14:00:00Z" end-time-utc="2020-05-15T14:00:00Z">
+                <text type="forecast">Mostly sunny. Slight (20%) chance of a shower. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2020-05-16T00:00:00+10:00" end-time-local="2020-05-17T00:00:00+10:00" start-time-utc="2020-05-15T14:00:00Z" end-time-utc="2020-05-16T14:00:00Z">
+                <text type="forecast">Mostly sunny. Slight (20%) chance of a shower. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_ME001" description="Sydney" type="metropolitan" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2020-05-10T00:00:00+10:00" end-time-local="2020-05-11T00:00:00+10:00" start-time-utc="2020-05-09T14:00:00Z" end-time-utc="2020-05-10T14:00:00Z">
+                <text type="forecast">Sunny. Winds west to southwesterly 25 to 40 km/h this morning, tending southwesterly 15 to 25 km/h in the middle of the day then becoming light in the late evening.</text>
+                <text type="uv_alert">Sun protection 10:30am to 1:00pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2020-05-11T00:00:00+10:00" end-time-local="2020-05-12T00:00:00+10:00" start-time-utc="2020-05-10T14:00:00Z" end-time-utc="2020-05-11T14:00:00Z">
+                <text type="forecast">Sunny. Patchy fog and patches of light frost in the outer west in the early morning. Light winds becoming westerly 15 to 20 km/h in the morning then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2020-05-12T00:00:00+10:00" end-time-local="2020-05-13T00:00:00+10:00" start-time-utc="2020-05-11T14:00:00Z" end-time-utc="2020-05-12T14:00:00Z">
+                <text type="forecast">Mostly sunny. Areas of morning fog in the west. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2020-05-13T00:00:00+10:00" end-time-local="2020-05-14T00:00:00+10:00" start-time-utc="2020-05-12T14:00:00Z" end-time-utc="2020-05-13T14:00:00Z">
+                <text type="forecast">Partly cloudy. Patchy morning fog in the outer west. Slight (30%) chance of a shower along the coastal fringe in the evening. Near zero chance of rain elsewhere. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2020-05-14T00:00:00+10:00" end-time-local="2020-05-15T00:00:00+10:00" start-time-utc="2020-05-13T14:00:00Z" end-time-utc="2020-05-14T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower, most likely during the morning. Winds southwesterly 15 to 20 km/h turning southerly during the morning.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2020-05-15T00:00:00+10:00" end-time-local="2020-05-16T00:00:00+10:00" start-time-utc="2020-05-14T14:00:00Z" end-time-utc="2020-05-15T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2020-05-16T00:00:00+10:00" end-time-local="2020-05-17T00:00:00+10:00" start-time-utc="2020-05-15T14:00:00Z" end-time-utc="2020-05-16T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_ME004" description="Central Coast" type="metropolitan" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2020-05-10T00:00:00+10:00" end-time-local="2020-05-11T00:00:00+10:00" start-time-utc="2020-05-09T14:00:00Z" end-time-utc="2020-05-10T14:00:00Z">
+                <text type="forecast">Sunny. Winds westerly 20 to 30 km/h turning southwesterly 25 to 35 km/h in the middle of the day.</text>
+                <text type="uv_alert">Sun protection 10:20am to 1:10pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2020-05-11T00:00:00+10:00" end-time-local="2020-05-12T00:00:00+10:00" start-time-utc="2020-05-10T14:00:00Z" end-time-utc="2020-05-11T14:00:00Z">
+                <text type="forecast">Mostly sunny. Winds west to southwesterly 15 to 25 km/h becoming light in the middle of the day.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2020-05-12T00:00:00+10:00" end-time-local="2020-05-13T00:00:00+10:00" start-time-utc="2020-05-11T14:00:00Z" end-time-utc="2020-05-12T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2020-05-13T00:00:00+10:00" end-time-local="2020-05-14T00:00:00+10:00" start-time-utc="2020-05-12T14:00:00Z" end-time-utc="2020-05-13T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower in the evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2020-05-14T00:00:00+10:00" end-time-local="2020-05-15T00:00:00+10:00" start-time-utc="2020-05-13T14:00:00Z" end-time-utc="2020-05-14T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers. Light winds becoming southerly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2020-05-15T00:00:00+10:00" end-time-local="2020-05-16T00:00:00+10:00" start-time-utc="2020-05-14T14:00:00Z" end-time-utc="2020-05-15T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower, most likely during the morning. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2020-05-16T00:00:00+10:00" end-time-local="2020-05-17T00:00:00+10:00" start-time-utc="2020-05-15T14:00:00Z" end-time-utc="2020-05-16T14:00:00Z">
+                <text type="forecast">Mostly sunny. Slight (20%) chance of a shower. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_ME005" description="Newcastle" type="metropolitan" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2020-05-10T00:00:00+10:00" end-time-local="2020-05-11T00:00:00+10:00" start-time-utc="2020-05-09T14:00:00Z" end-time-utc="2020-05-10T14:00:00Z">
+                <text type="forecast">Sunny. Winds westerly 20 to 30 km/h tending southwesterly 15 to 25 km/h in the afternoon.</text>
+                <text type="uv_alert">Sun protection 10:10am to 1:10pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2020-05-11T00:00:00+10:00" end-time-local="2020-05-12T00:00:00+10:00" start-time-utc="2020-05-10T14:00:00Z" end-time-utc="2020-05-11T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2020-05-12T00:00:00+10:00" end-time-local="2020-05-13T00:00:00+10:00" start-time-utc="2020-05-11T14:00:00Z" end-time-utc="2020-05-12T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2020-05-13T00:00:00+10:00" end-time-local="2020-05-14T00:00:00+10:00" start-time-utc="2020-05-12T14:00:00Z" end-time-utc="2020-05-13T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower in the evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2020-05-14T00:00:00+10:00" end-time-local="2020-05-15T00:00:00+10:00" start-time-utc="2020-05-13T14:00:00Z" end-time-utc="2020-05-14T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (50%) chance of showers. Light winds becoming southerly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2020-05-15T00:00:00+10:00" end-time-local="2020-05-16T00:00:00+10:00" start-time-utc="2020-05-14T14:00:00Z" end-time-utc="2020-05-15T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower. Light winds becoming south to southeasterly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2020-05-16T00:00:00+10:00" end-time-local="2020-05-17T00:00:00+10:00" start-time-utc="2020-05-15T14:00:00Z" end-time-utc="2020-05-16T14:00:00Z">
+                <text type="forecast">Mostly sunny. Slight (20%) chance of a shower. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_ME006" description="Canberra" type="metropolitan" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2020-05-10T00:00:00+10:00" end-time-local="2020-05-11T00:00:00+10:00" start-time-utc="2020-05-09T14:00:00Z" end-time-utc="2020-05-10T14:00:00Z">
+                <text type="forecast">Sunny. Winds west to northwesterly 15 to 25 km/h becoming light in the evening.</text>
+                <text type="uv_alert">Sun protection 10:50am to 1:00pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2020-05-11T00:00:00+10:00" end-time-local="2020-05-12T00:00:00+10:00" start-time-utc="2020-05-10T14:00:00Z" end-time-utc="2020-05-11T14:00:00Z">
+                <text type="forecast">Areas of morning frost. Patchy fog in the early morning. Sunny day. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2020-05-12T00:00:00+10:00" end-time-local="2020-05-13T00:00:00+10:00" start-time-utc="2020-05-11T14:00:00Z" end-time-utc="2020-05-12T14:00:00Z">
+                <text type="forecast">Partly cloudy. Areas of morning fog. Patches of light morning frost. Light winds becoming northwesterly 15 to 20 km/h during the afternoon then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2020-05-13T00:00:00+10:00" end-time-local="2020-05-14T00:00:00+10:00" start-time-utc="2020-05-12T14:00:00Z" end-time-utc="2020-05-13T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower, most likely in the afternoon and evening. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2020-05-14T00:00:00+10:00" end-time-local="2020-05-15T00:00:00+10:00" start-time-utc="2020-05-13T14:00:00Z" end-time-utc="2020-05-14T14:00:00Z">
+                <text type="forecast">Partly cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2020-05-15T00:00:00+10:00" end-time-local="2020-05-16T00:00:00+10:00" start-time-utc="2020-05-14T14:00:00Z" end-time-utc="2020-05-15T14:00:00Z">
+                <text type="forecast">Sunny. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2020-05-16T00:00:00+10:00" end-time-local="2020-05-17T00:00:00+10:00" start-time-utc="2020-05-15T14:00:00Z" end-time-utc="2020-05-16T14:00:00Z">
+                <text type="forecast">Sunny. Light winds.</text>
+            </forecast-period>
+        </area>
+        <area aac="NSW_ME007" description="Alpine" type="metropolitan" parent-aac="NSW_FA001">
+            <forecast-period index="0" start-time-local="2020-05-10T00:00:00+10:00" end-time-local="2020-05-11T00:00:00+10:00" start-time-utc="2020-05-09T14:00:00Z" end-time-utc="2020-05-10T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a morning snow shower. Winds westerly 25 to 35 km/h turning southwesterly 25 to 40 km/h in the morning.</text>
+                <text type="uv_alert">Sun protection 11:20am to 12:30pm, UV Index predicted to reach 3 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2020-05-11T00:00:00+10:00" end-time-local="2020-05-12T00:00:00+10:00" start-time-utc="2020-05-10T14:00:00Z" end-time-utc="2020-05-11T14:00:00Z">
+                <text type="forecast">Mostly sunny. Winds southwesterly 25 to 40 km/h decreasing to 20 to 30 km/h in the morning then turning west to northwesterly and becoming light in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2020-05-12T00:00:00+10:00" end-time-local="2020-05-13T00:00:00+10:00" start-time-utc="2020-05-11T14:00:00Z" end-time-utc="2020-05-12T14:00:00Z">
+                <text type="forecast">Partly cloudy. Winds northwesterly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2020-05-13T00:00:00+10:00" end-time-local="2020-05-14T00:00:00+10:00" start-time-utc="2020-05-12T14:00:00Z" end-time-utc="2020-05-13T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of snow showers, most likely in the morning and afternoon. Winds westerly 25 to 35 km/h decreasing to 15 to 20 km/h during the day then turning south to southwesterly during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2020-05-14T00:00:00+10:00" end-time-local="2020-05-15T00:00:00+10:00" start-time-utc="2020-05-13T14:00:00Z" end-time-utc="2020-05-14T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a snow shower. Winds south to southwesterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2020-05-15T00:00:00+10:00" end-time-local="2020-05-16T00:00:00+10:00" start-time-utc="2020-05-14T14:00:00Z" end-time-utc="2020-05-15T14:00:00Z">
+                <text type="forecast">Sunny. Light winds becoming northerly 15 to 20 km/h later.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2020-05-16T00:00:00+10:00" end-time-local="2020-05-17T00:00:00+10:00" start-time-utc="2020-05-15T14:00:00Z" end-time-utc="2020-05-16T14:00:00Z">
+                <text type="forecast">Sunny. Winds northerly 15 to 25 km/h turning northwesterly during the morning.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>
